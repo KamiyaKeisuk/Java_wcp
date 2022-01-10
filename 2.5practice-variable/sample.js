@@ -1,5 +1,3 @@
-// constによる再代入
-const nickname = "taro"
-console.log(nickname)
-nickname = "jiro"
-console.log(nickname)
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
